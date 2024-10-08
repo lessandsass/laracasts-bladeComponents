@@ -1,4 +1,6 @@
-<section class="bg-yellow-300 p-4">
+<section
+    class="{{ $type === 'success' ? 'bg-green-300' : 'bg-red-300' }} p-4"
+>
     <div class="flex justify-between">
         <p>
             {{ $slot }}
