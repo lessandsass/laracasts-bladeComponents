@@ -1,7 +1,3 @@
-@extends('layout')
-
-@section('content')
-    Hello world
-@endsection
-
-
+<x-layout>
+    Hello there again
+</x-layout>

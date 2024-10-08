@@ -9,7 +9,7 @@
     </head>
 
     <body class="antialiased dark:bg-black dark:text-white/50">
-        @yield('content')
+        {{ $slot }}
     </body>
 
 </html>
