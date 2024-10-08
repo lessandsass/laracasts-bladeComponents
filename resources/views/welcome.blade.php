@@ -1,13 +1,7 @@
-<x-layout>
-    <x-section>
-        Hello world
-    </x-section>
+@extends('layout')
 
-    <x-section>
-        Hello world again
-    </x-section>
+@section('content')
+    Hello world
+@endsection
 
-    <x-section>
-        Hello world three times
-    </x-section>
-</x-layout>
+
