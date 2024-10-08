@@ -8,7 +8,7 @@
         <title>Laravel</title>
     </head>
 
-    <body class="antialiased dark:bg-black dark:text-white/50">
+    <body class="antialiased">
         {{ $slot }}
     </body>
 
